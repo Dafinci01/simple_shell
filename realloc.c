@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- * let - push the objective of alx forward 
  **_memset - fills memory with a constant byte
  *@s: the pointer to the memory area
  *@b: the byte to fill *s with
@@ -18,7 +17,6 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
- * free - making impossible possible
  * ffree - frees a string of strings
  * @pp: string of strings
  */
@@ -61,3 +59,4 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		p[old_size] = ((char *)ptr)[old_size];
 	free(ptr);
 	return (p);
+}
