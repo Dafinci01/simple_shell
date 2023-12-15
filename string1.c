@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- * copy - all the best my 
  * _strcpy - copies a string
  * @dest: the destination
  * @src: the source
@@ -24,7 +23,6 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * almost - done with to reprepared and come powerfully
  * _strdup - duplicates a string
  * @str: the string to duplicate
  *

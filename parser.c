@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- * making - the code must pass betty test and run withouth error
  * is_cmd - determines if a file is an executable command
  * @info: the info struct
  * @path: path to the file
@@ -24,7 +23,6 @@ int is_cmd(info_t *info, char *path)
 }
 
 /**
- * duplication - requirement for a fullstack
  * dup_chars - duplicates characters
  * @pathstr: the PATH string
  * @start: starting index
